@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 
 
 export const metadata = {
-  title: '₊˚⊹♡ Najwa ₊˚⊹♡',
+  title: '✰ Najwa ✰',
   description: 'Najwa Tahir personal website',
 }
 

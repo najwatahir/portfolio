@@ -1,19 +1,19 @@
 import React from "react"
 import Image from "next/image"
 
-const skills = [
-    { skill: "HTML" },
-    { skill: "CSS" },
-    { skill: "Tailwind CSS" },
-    { skill: "Public Speaking" },
-    { skill: "Problem Solving" },
+const abilities = [
+    { ability: "HTML" },
+    { ability: "CSS" },
+    { ability: "Tailwind CSS" },
+    { ability: "Public Speaking" },
+    { ability: "Problem Solving" },
 
 ]
 
 const AboutPage = () => {
     return (
         <section id="about" className="pt-5 mt-0 pb-6 bg-[#F1F1F1]">
-            <div className="bg-[#EDEDED] pt-5 md:pt-12 md:pb-5 p-24">
+            <div className="bg-[#EDEDED] md:pt-5 md:pb-5 p-24">
                 <div className="flex flex-col pt-5 space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
                     <div className="md:w-1/2 ">
                         <h1 className="text-center text-2xl md:text-4xl font-bold mb-6 md:text-center text-[#1E1E1E] font-['Concert One']">
@@ -37,13 +37,13 @@ const AboutPage = () => {
                         <h1 className="text-2xl md:text-4xl font-bold mb-6">MY ABILITIES</h1>
                         <hr className="w-12 h-1 mx-auto my-4 bg-[#B19DC5] border-0 rounded"></hr>
                         <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start items-center md:pl-8">
-                            {skills.map((item, idx) => {
+                            {abilities.map((item, idx) => {
                                 return (
                                     <p
                                         key={idx}
                                         className="skill-box"
                                     >
-                                        {item.skill}
+                                        {item.ability}
                                     </p>
                                 )
                             })}

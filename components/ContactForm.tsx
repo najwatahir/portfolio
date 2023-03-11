@@ -89,7 +89,7 @@ function ContactForm() {
                         </div>
                         <section id="footer">
                             <div className="w-full pt-8 mt-8 border-t border-gray-800 text-center">
-                                <a className="text-[#B19DC5] block leading-normal my-5 text-lg" href="mailto:najwatahir186@gmail.com">najwatahir186@email.com</a>
+                                <a className="text-[#B19DC5] hover:text-[#D8C5EC] block leading-normal my-5 text-lg" href="mailto:najwatahir186@gmail.com">najwatahir186@email.com</a>
                                 <span className="inline-flex pb-5">
                                     <a className="ml-4 text-[#D9D9D9] hover:text-[#A59CB0]" href="https://www.instagram.com/najwathalibz/" target="_blank">
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">

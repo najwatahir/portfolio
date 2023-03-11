@@ -13,7 +13,7 @@ const abilities = [
 const AboutPage = () => {
     return (
         <section id="about" className="pt-5 mt-0 pb-6 bg-[#EDEDED]">
-            <div className="bg-[#EDEDED] md:pt-5 md:pb-5 p-24">
+            <div className="md:pt-5 md:pb-5 p-24">
                 <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
                     <div className="md:w-1/2 ">
                         <h1 className="text-center text-2xl md:text-4xl font-bold mb-6 md:text-center text-[#1E1E1E] font-['Concert One']">

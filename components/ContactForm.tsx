@@ -14,7 +14,7 @@ function ContactForm() {
                         <div className="p-4 mt-36 w-2/3 sm:w-1/2 lg:w-1/3 bg-[#F1F1F1] rounded-xl">
                             <h3 className="text-center pb-10">Thank you for your message. Hope you always have a nice day!</h3>
                             <div className="flex items-center flex-wrap justify-center ">
-                                <a href="https://najwatahir.vercel.app/" className="text-[#1E1E1E] hover:text-[#] text-semibold inline-flex items-center md:mb-2 lg:mb-0"><button className="text-[#1E1E1E] font-semibold px-8 py-3 hover:bg-[#B19DC5] rounded shadow bg-[#1E1E1E] text-[#D9D9D9] hover:text-[#1E1E1E]">Back to home page</button>
+                                <a href="https://najwatahir.vercel.app/" className="text-[#1E1E1E] hover:text-[#] text-semibold inline-flex items-center md:mb-2 lg:mb-0"><button className="send-button">Back to home page</button>
                                 </a>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ function ContactForm() {
                         CONTACT
                         <hr className="w-12 h-1 mx-auto my-4 bg-[#B19DC5] border-0 rounded"></hr>
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base md:text-xl text-[#D9D9D9]">If you want to ask me or want to know me more, feel free to send me a message!</p>
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base md:text-xl text-[#D9D9D9]">Write me your message, question, or anything here!</p>
                 </div>
                 <div className="lg:w-1/2 md:w-2/3 mx-auto">
                     <div className="flex flex-wrap -m-2 justify-center">
@@ -79,37 +79,37 @@ function ContactForm() {
                                         field="message"
                                         errors={state.errors}
                                     />
-                                    <div className="mt-10">
-                                        <button className="flex mx-auto text-[#1E1E1E] bg-[#FFFBEB] hover:bg-[#EDEDED] hover:text-[#0F1C4B] border-0 py-2 px-8 focus:outline-none hover:translate-x-1 hover:translate-y-1 rounded text-lg" type="submit" disabled={state.submitting}>
+                                    <div className="mt-10 items-center">
+                                        <button className="send-button" type="submit" disabled={state.submitting}>
                                             Send
                                         </button>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <div className="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-                            <a className="text-[#B19DC5]" href="najwatahir186@gmail.com">najwatahir186@email.com</a>
-                            <p className="leading-normal my-5 text-[#D9D9D9]">Bali, Indonesia.
-                            </p>
-                            <span className="inline-flex">
-                                <a className="ml-4 text-[#D9D9D9]" href="https://www.instagram.com/najwathalibz/" target="_blank">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                                    </svg>
-                                </a>
-                                <a href="https://github.com/najwatahir" target="_blank" className="ml-4 text-[#D9D9D9]">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-5 h-5" viewBox="0 0 16 16">
-                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                                    </svg>
-                                </a>
-                            </span>
-                        </div>
+                        <section id="footer">
+                            <div className="w-full pt-8 mt-8 border-t border-gray-800 text-center">
+                                <a className="text-[#B19DC5] block leading-normal my-5 text-lg" href="mailto:najwatahir186@gmail.com">najwatahir186@email.com</a>
+                                <span className="inline-flex pb-5">
+                                    <a className="ml-4 text-[#D9D9D9]" href="https://www.instagram.com/najwathalibz/" target="_blank">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                        </svg>
+                                    </a>
+                                    <a href="https://github.com/najwatahir" target="_blank" className="ml-4 text-[#D9D9D9]">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="w-5 h-5" viewBox="0 0 16 16">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                        </svg>
+                                    </a>
+                                </span>
+                            </div>
+                            <p className="text-semibold text-[#D9D9D9] text-center">Copyright &#169; 2023 Najwa Tahir. All right reserved.</p>
+                        </section>
 
                     </div>
                 </div>
             </div>
-            <p className="text-semibold text-[#D9D9D9]">Copyright &#169; 2023 Najwa Tahir. All right reserved.</p>
         </section>
     );
 }

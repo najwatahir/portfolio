@@ -5,6 +5,8 @@ const abilities = [
     
     { ability: "HTML" },
     { ability: "CSS" },
+    { ability: "PHP" },
+    { ability: "JavaScript" },
     { ability: "Tailwind CSS" },
     { ability: "Think Creative" },
     { ability: "Public Speaking" },

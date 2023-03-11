@@ -44,7 +44,7 @@ const Project = () => {
                     <div className="project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4">
                         <div className="h-fit rounded-lg overflow-hidden cursor-default">
                             <img className="lg:h-40 w-screen object-cover object-center"
-                                src="/images/projectbali.jpg" alt="Website about Pulau Bali" />
+                                src="/images/webBali.jpg" alt="Website about Pulau Bali" />
                             <div className="p-4">
                                 <h1 className="text-2xl font-semibold mb-3">Pulau Bali Website</h1>
                                 <p className="leading-relaxed mb-3">A school project that I made with my friends in group. This project we made on Web Programming class. We use HTML, CSS, and little bit of JavaScript.</p>

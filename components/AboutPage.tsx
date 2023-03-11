@@ -34,7 +34,7 @@ const AboutPage = () => {
                         </p>
                     </div>
                     <div className="text-center md:w-1/2 md:text-center">
-                        <h1 className="text-2xl md:text-4xl font-bold mb-6">MY ABILITIES</h1>
+                        <h1 className="text-2xl md:text-4xl font-bold mb-6">ABILITIES</h1>
                         <hr className="w-12 h-1 mx-auto my-4 bg-[#B19DC5] border-0 rounded"></hr>
                         <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start items-center md:pl-8">
                             {abilities.map((item, idx) => {

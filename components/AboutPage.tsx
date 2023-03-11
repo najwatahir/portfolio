@@ -2,9 +2,11 @@ import React from "react"
 import Image from "next/image"
 
 const abilities = [
+    
     { ability: "HTML" },
     { ability: "CSS" },
     { ability: "Tailwind CSS" },
+    { ability: "Think Creative" },
     { ability: "Public Speaking" },
     { ability: "Problem Solving" },
 

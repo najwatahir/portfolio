@@ -21,8 +21,8 @@ const HomePage = () => {
                     <p className="text-lg mt-4 mb-6 md:text-2xl text-[#D9D9D9]">
                         My name is <span>Najwa Tahir.</span> I am a student at SMKN 1 Denpasar. Now, I am an intern at Taksu Tech.
                     </p>
-                    <a href="#about" className="text-[#1E1E1E] font-semibold px-6 py-3 bg-[#FFFBEB] rounded shadow hover:bg-[#EDEDED] hover:text-[#0F1C4B] scroll-smooth">
-                        <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 scroll-smooth">Get to know me</button>
+                    <a href="#about">
+                        <button className="home-button">Get to know me</button>
                     </a>
                 </div>
             </div>

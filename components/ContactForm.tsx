@@ -14,7 +14,7 @@ function ContactForm() {
                         <div className="p-4 mt-36 w-2/3 sm:w-1/2 lg:w-1/3 bg-[#F1F1F1] rounded-xl">
                             <h3 className="text-center pb-10">Thank you for your message. Hope you always have a nice day!</h3>
                             <div className="flex items-center flex-wrap justify-center ">
-                                <a href="https://najwatahir.vercel.app/"><button className="edu-box cursor-pointer">Back to home page</button>
+                                <a href="https://najwatahir.vercel.app/"><button className="edu-box hover:cursor-pointer">Back to home page</button>
                                 </a>
                             </div>
                         </div>

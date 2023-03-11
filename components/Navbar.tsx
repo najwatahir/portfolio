@@ -1,4 +1,5 @@
-"use client" // this is a client component
+"use client"
+
 import React from "react"
 import { useState } from "react"
 import { Link } from "react-scroll/modules"
@@ -31,7 +32,7 @@ const NAV_ITEMS: Array<NavItem> = [
 export default function Navbar() {
     const [navbar, setNavbar] = useState(false)
     return (
-        <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 bg-[#D9D9D9]">
+        <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 bg-[#CBC7D6]">
             <div className="justify-between md:items-center md:flex">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -64,13 +65,13 @@ export default function Navbar() {
                                         key={idx}
                                         to={item.page}
                                         className={
-                                            "block lg:inline-block text-[#1B1F2C] font-semibold hover:text-[#465072] md:pl-3 md:pr-3 cursor-pointer"
+                                            "block lg:inline-block text-[#1B1F2C] font-semibold hover:text-[#485375] md:pl-3 md:pr-3 cursor-pointer scroll-pt-5"
                                         }
                                         activeClass="active"
                                         spy={true}
                                         smooth={true}
-                                        offset={-100}
-                                        duration={500}
+                                        offset={-79}
+                                        duration={100}
                                         onClick={() => setNavbar(!navbar)}
                                     >
                                         {item.label}

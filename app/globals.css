@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 20px;
+    scroll-padding-top: 53px;
 }
 
 *{
@@ -43,10 +45,6 @@ body{
     width: 100%;
 }
 
-a button .home-button{
-    scroll-behavior: smooth;
-}
-
 .home-button{
     --bg:#D9D9D9;
     --hover-bg: #B19DC5;
@@ -59,9 +57,7 @@ a button .home-button{
     border-radius: 4px;
     background: var(--bg);
     transition: 0.2s;
-    scroll-behavior: smooth;
     cursor: pointer;
-    scroll-behavior: smooth;
   }
 
 .home-button:hover{
@@ -146,7 +142,7 @@ h1, h2, h3{
     --hover-text: #1E1E1E;
     color: #D9D9D9;
     border: 1px solid var(--bg);
-    padding: 0.8em 2em;
+    padding: 2px;
     font-weight: 600;
     margin: 5px;
     background: var(--bg);
@@ -166,6 +162,35 @@ h1, h2, h3{
     box-shadow: none;
 }
 
+.visit-button{
+    --bg:#D9D9D9;
+    --hover-bg: #1E1E1E;
+    --hover-text: #D9D9D9;
+    color: #1B1F2C;
+    border: 1px solid var(--bg);
+    padding: 0.5em 2em;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 4px;
+    background: var(--bg);
+    transition: 0.2s;
+    cursor: pointer;
+    display: flex;
+  }
+
+.visit-button:hover{
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.visit-button:active{
+    transform: translate(0);
+    box-shadow: none;
+}
+
 .msg{
     width: 70%;
     top: 50%;
@@ -180,26 +205,20 @@ h1, h2, h3{
 } 
 
 .send-button{
-    background: var(--bg);
     --bg:#D9D9D9;
     --hover-bg: #B19DC5;
     --hover-text: #1E1E1E;
     color: #1B1F2C;
-    font-weight: 600;
     border: 1px solid var(--bg);
-    display: flex; 
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem; 
-    padding-left: 2rem;
-    padding-right: 2rem; 
+    padding: 0.5em 2em;
+    font-weight: 700;
     margin-left: auto;
     margin-right: auto; 
-    font-size: 1.125rem;
-    line-height: 1.75rem; 
-    border-radius: 0.25rem; 
-    border-width: 0; 
-    cursor: pointer;
+    border-radius: 4px;
+    background: var(--bg);
     transition: 0.2s;
+    cursor: pointer;
+    display: flex;
   }
 
 .send-button:hover{

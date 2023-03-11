@@ -11,7 +11,7 @@ const Project = () => {
                 PROJECT
                 <hr className="w-12 h-1 mx-auto my-4 bg-[#B19DC5] border-0 rounded"></hr>
             </h1>
-            <div className="container px-5 py-10 mx-auto">
+            <div className="container px-5 py-5 mx-auto">
                 <div className="flex flex-wrap justify-center">
                     <div className="project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4">
                         <div className="h-fit rounded-lg overflow-hidden cursor-default">

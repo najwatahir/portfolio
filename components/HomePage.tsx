@@ -19,7 +19,7 @@ const HomePage = () => {
                 <div className="md:mt-2 md:w-3/5">
                     <h1 className="text-2xl font-bold mt-6 md:mt-0 md:text-4xl text-[#D9D9D9]">Hello! I am Najwa, a Software Engineering student.</h1>
                     <p className="text-lg mt-4 mb-6 md:text-2xl text-[#D9D9D9]">
-                        My name is <span>Najwa Tahir.</span> I am a student at SMKN 1 Denpasar. Now, I am an intern at Taksu Tech.
+                        My name is <span>Najwa Tahir.</span> I am a student at SMKN 1 Denpasar.
                     </p>
                     <a href="#about">
                         <button className="home-button">Get to know me</button>

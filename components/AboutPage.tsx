@@ -1,74 +1,73 @@
 import React from "react"
 import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./Slideup"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
-const project = [
-    {
-        image: "/images/umaiApp.jpg",
-    },
-    {
-        image: "/images/wordpressProject.jpg",
-        link: "https://wawaffle.wordpress.com/",
-    },
+const abilities = [
+    { ability: "HTML" },
+    { ability: "CSS" },
+    { ability: "Tailwind CSS" },
+    { ability: "Public Speaking" },
+    { ability: "Problem Solving" },
+
 ]
 
-const Project = () => {
+const AboutPage = () => {
     return (
-        <section id="project" className="bg-[#F1F1F1] pb-20 pt-5">
-            <h1 className="my-5 text-center font-bold text-2xl md:text-4xl text-[#1E1E1E]">
-                PROJECT
-                <hr className="w-12 h-1 mx-auto my-4 bg-[#B19DC5] border-0 rounded"></hr>
-            </h1>
-            <div className="container px-5 py-10 mx-auto">
-                <div className="flex flex-wrap justify-center">
-                    <div className="project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4">
-                        <div className="h-fit rounded-lg overflow-hidden cursor-default">
-                            <img className="lg:h-40 w-screen object-cover object-center"
-                                src="/images/todo.jpg" alt="Simple To-Do List" />
-                            <div className="p-4">
-                                <h1 className="text-xl font-semibold mb-3">A Simple To-Do List</h1>
-                                <p className="leading-relaxed mb-3">My first small project I made with HTML, CSS, and JavaScript. The design is very simple because I made this just for fun & fill my boredness time.</p>
-                                <div className="flex items-center flex-wrap ">
-                                    <a href="https://purple-to-do.netlify.app/" target="_blank"><button className="visit-button">Visit</button>
-                                    </a>
-                                </div>
-                            </div>
+        <section id="about" className="pt-4 mt-0 pb-6 bg-[#F1F1F1]">
+            <div className="bg-[#EDEDED] md:pt-5 md:pb-5 p-24">
+                <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
+                    <div className="md:w-1/2 ">
+                        <h1 className="text-center text-2xl md:text-4xl font-bold mb-6 md:text-center text-[#1E1E1E] font-['Concert One']">
+                            ABOUT ME
+                        </h1>
+                        <hr className="w-12 h-1 mx-auto my-4 bg-[#B19DC5] border-0 rounded"></hr>
+                        <p className="text-[#1E1E1E] mb:text-lg text-base">
+                            My name is <span>Najwa Tahir</span>, you can call me <span>Najwa</span> for short. I am a 2nd year Vocational High School student majoring in Software Engineering at SMKN 1 Denpasar. Currently, I am an intern at Taksu Tech.
+                        </p>
+                        <br />
+                        <p>
+                            I start coding on the first year of Vocational High School. I like problem solving and logic things, so that was the reason i choosed Software Engineering major. My dream is to be a Software Engineer.
+
+                        </p>
+                        <br />
+                        <p className="mb-10">
+                            I am a very curious person. I love to learning new things everyday, especially in improving my coding skill. I always try to trust every single process I make.
+                        </p>
+                    </div>
+                    <div className="text-center md:w-1/2 md:text-center">
+                        <h1 className="text-2xl md:text-4xl font-bold mb-6">MY ABILITIES</h1>
+                        <hr className="w-12 h-1 mx-auto my-4 bg-[#B19DC5] border-0 rounded"></hr>
+                        <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start items-center md:pl-8">
+                            {abilities.map((item, idx) => {
+                                return (
+                                    <p
+                                        key={idx}
+                                        className="skill-box"
+                                    >
+                                        {item.ability}
+                                    </p>
+                                )
+                            })}
+
                         </div>
                     </div>
-                    <div className="project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4">
-                        <div className="h-fit rounded-lg overflow-hidden cursor-default">
-                            <img className="lg:h-40 md:h-48 w-screen object-cover object-center"
-                                src="/images/wordpressProject.jpg" alt="Personal Website with WordPress" />
-                            <div className="p-4">
-                                <h1 className="text-2xl font-semibold mb-3">Personal WordPress Site</h1>
-                                <p className="leading-relaxed mb-3">A personal website I created with WordPress for my school OOP class project. The contents are flat because I didnt have idea what I want to put.</p>
-                                <div className="flex items-center flex-wrap ">
-                                    <a href="https://wawaffle.wordpress.com/" target="_blank"><button className="visit-button">Visit</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4">
-                        <div className="h-fit rounded-lg overflow-hidden cursor-default">
-                            <img className="lg:h-40 w-screen object-cover object-center"
-                                src="/images/projectbali.jpg" alt="Website about Pulau Bali" />
-                            <div className="p-4">
-                                <h1 className="text-2xl font-semibold mb-3">Pulau Bali Website</h1>
-                                <p className="leading-relaxed mb-3">A school project that I made with my friends in group. This project we made on Web Programming class. We use HTML, CSS, and little bit of JavaScript.</p>
-                                <div className="flex items-center flex-wrap ">
-                                    <a href="https://madekarma.github.io/SoulSilver/Bali/project1.html" target="_blank"><button className="visit-button">Visit</button>
-                                    </a>
-                                </div>
-                            </div>
+                    <div className="text-center md:w-1/2 md:text-center">
+                        <h1 className="text-2xl md:text-4xl font-bold mb-6">EDUCATION JOURNEY</h1>
+                        <hr className="w-12 h-1 mx-auto my-4 bg-[#B19DC5] border-0 rounded"></hr>
+                        <div className="edu-box">
+                            <p className="font-bold text-2xl">MI Negeri Denpasar</p>
+                            <p>2012-2018</p>
+                            <hr className="w-1 h-14 mx-auto my-4 bg-[#DDD1E9] border-0"></hr>
+                            <p className="font-bold md:text-2xl text-xl">MTs Hidayatullah Denpasar</p>
+                            <p>2018-2021</p>
+                            <hr className="w-1 h-14 mx-auto my-4 bg-[#DDD1E9] border-0"></hr>
+                            <p className="font-bold text-2xl">SMK Negeri 1 Denpasar</p>
+                            <p>2021-Current</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section >
+        </section>
     )
 }
 
-export default Project
+export default AboutPage

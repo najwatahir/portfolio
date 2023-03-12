@@ -29,7 +29,7 @@ const AboutPage = () => {
                         </p>
                         <br />
                         <p>
-                            I start coding on the first year of Vocational High School. I like problem solving and logic things, so that was the reason i choosed Software Engineering major. My dream is to be a Software Engineer.
+                            I start coding on the first year of Vocational High School. I like problem solving and logic things, so that was the reason I choosed Software Engineering major. My dream is to be a Software Engineer.
 
                         </p>
                         <br />

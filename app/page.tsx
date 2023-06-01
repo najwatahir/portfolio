@@ -3,7 +3,7 @@ import AboutPage from "@/components/AboutPage"
 import SlideUp from "@/components/Slideup"
 import Project from "@/components/Project"
 import ContactForm from "@/components/ContactForm";
-
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <SlideUp />
       <Project />
       <ContactForm />
-
+      <Footer />
 
     </main>
   )

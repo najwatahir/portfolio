@@ -36,16 +36,20 @@ const AboutPage = () => {
                                 <img src="/images/css.png" alt="" />
                             </div>
                             <div className="skill-box">
-                                <p>JavaScript</p>
-                                <img src="/images/js.png" alt="" />
-                            </div>
-                            <div className="skill-box">
                                 <p>Tailwind CSS</p>
                                 <img src="/images/tailwind-css.png" alt="" />
                             </div>
                             <div className="skill-box">
+                                <p>JavaScript</p>
+                                <img src="/images/js.png" alt="" />
+                            </div>
+                            <div className="skill-box">
                                 <p>PHP</p>
                                 <img className="php-img" src="/images/php.png" alt="" />
+                            </div>
+                            <div className="skill-box">
+                                <p>Laravel</p>
+                                <img src="/images/laravel.png" alt="" />
                             </div>
                             <div className="skill-box">
                                 <p>MySQL</p>

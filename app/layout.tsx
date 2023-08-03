@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar'
 
 
 export const metadata = {
-  title: '✰ Najwa Tahir ✰',
-  description: 'Najwa Tahir Portfolio Website',
+  title: 'Najwa Tahir',
+  description: "Najwa Tahir's Portfolio Website",
 }
 
 export default function RootLayout({

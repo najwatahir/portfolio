@@ -48,10 +48,6 @@ const AboutPage = () => {
                                 <img className="php-img" src="/images/php.png" alt="" />
                             </div>
                             <div className="skill-box">
-                                <p>Laravel</p>
-                                <img src="/images/laravel.png" alt="" />
-                            </div>
-                            <div className="skill-box">
                                 <p>MySQL</p>
                                 <img src="/images/MySQL.png" alt="" />
                             </div>

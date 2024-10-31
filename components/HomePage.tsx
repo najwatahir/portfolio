@@ -5,21 +5,21 @@ import { Link } from 'react-scroll'
 
 const HomePage = () => {
     return (
-        <section id="home" className="bg-[#EDEDED] sm:h-screen h-screen pt-2">
+        <section id="home" className="bg-[#f3eef8] sm:h-screen h-screen pt-2">
             <div className="flex flex-col text-center items-center justify-center pl-20 pr-20 animate-fadeIn animation-delay-2 mt-10 py-10 sm:py-20 md:py-40 md:h-full sm:h-full md:flex-row md:space-x-4 md:text-left">
                 <div className="md:mt-2 md:w-1/2">
                     <Image
-                        src="/images/my-photo.jpg"
+                        src="/images/my-porto-pict.png"
                         alt=""
                         width={325}
                         height={325}
-                        className="rounded-full shadow-2xl"
+                        className=""
                     />
                 </div>
                 <div className="md:mt-2 md:w-3/5">
-                    <h1 className="text-2xl font-bold mt-6 md:mt-0 md:text-4xl text-[#1E1E1E]">Hello! I am Najwa, a Software Engineering student.</h1>
-                    <p className="text-lg mt-4 mb-6 md:text-2xl text-[#1E1E1E]">
-                        My name is <span>Najwa Tahir.</span> I am a student at SMKN 1 Denpasar.
+                    <h1 className="text-2xl font-bold mt-6 md:mt-0 md:text-4xl text-[#1E1E1E] rubik">Explore various shade and variant with code</h1>
+                    <p className="text-lg mt-4 mb-6 md:text-2xl text-[#1E1E1E] rubik">
+                        Hi, I&apos;m Najwa. Welcome to my personal website where I tell some of my expertises in web development.
                     </p>
                     <a href="#about">
                         <button className="home-button">Get to know me</button>

@@ -25,12 +25,12 @@ function ContactForm() {
     }
 
     return (
-        <section id="contact" className="bg-[#EDEDED] body-font relative">
+        <section id="contact" className="bg-[#f3eef8] body-font relative rubik">
             <div className="container px-5 py-10 mx-auto">
                 <div className="flex flex-col text-center w-full mb-12">
                     <h1 className="my-2 text-center font-bold text-2xl md:text-4xl text-[#1E1E1E]">
                         CONTACT
-                        <hr className="w-12 h-1 mx-auto my-4 bg-[#B19DC5] border-0 rounded"></hr>
+                        <hr className="w-12 h-1 mx-auto my-4 bg-[#fcdf78] border-0 rounded"></hr>
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base md:text-xl text-[#1E1E1E]">Write me your message, question, or anything here!</p>
                 </div>

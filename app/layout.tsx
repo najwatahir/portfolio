@@ -1,11 +1,17 @@
 import './globals.css'
 import Navbar from '@/components/Navbar'
-
+import { Rubik } from 'next/font/google'
 
 export const metadata = {
   title: 'Najwa Tahir',
-  description: "Najwa Tahir's Portfolio Website",
+  description: 'Najwa Tahir Portfolio Website',
 }
+
+const rubik = Rubik({
+  subsets: ['latin'],
+  variable: '--font-rubik',
+  weight: '400',
+});
 
 export default function RootLayout({
   children,
@@ -14,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${rubik.variable}`}>
         <Navbar />
         {children}
       </body>

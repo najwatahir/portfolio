@@ -71,7 +71,7 @@ export default function Skills() {
                     <div className="skill-box">
                         <p>MySQL</p>
                         <Image
-                            src="/images/mysql.png"
+                            src="/images/MySQL.png"
                             alt="MySQL"
                             width={100}
                             height={100}

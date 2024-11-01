@@ -1,108 +1,97 @@
-import React from "react"
-import Image from "next/image"
+import React from 'react'
+import Image from 'next/image'
 
-const Project = () => {
+export default function Skills() {
     return (
-        <section id="project" className="bg-[#f3eef8] pt-5 rubik">
-            <h1 className="my-5 text-center font-bold text-2xl md:text-4xl text-[#1E1E1E]">
-                PROJECT
+        <div className='flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left rubik bg-[#f3eef8]'>
+            <div className="text-center md:w-1/2 md:text-center">
+                <h1 className="text-2xl md:text-4xl font-bold mb-6 text-center mx-auto">SKILLS & ABILITIES</h1>
                 <hr className="w-12 h-1 mx-auto my-4 bg-[#fcdf78] border-0 rounded"></hr>
-            </h1>
-            <div className="container px-5 py-5 mx-auto rubik">
-                <div className="flex flex-wrap justify-center">
-                    <div className="project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4">
-                        <div className="h-fit rounded-lg overflow-hidden cursor-default">
-                            <Image
-                                src="/images/api-documentation.jpeg"
-                                alt="API Documentation"
-                                width={325}
-                                height={325}
-                                className="lg:h-40 w-screen object-cover object-center"
-                            />
-                            <div className="p-4">
-                                <h1 className="text-xl font-semibold mb-3">API Documentation</h1>
-                                <p className="leading-relaxed mb-3">A simple REST API Documentation made with ExpressJS and Prisma</p>
-                                <div className="flex items-center flex-wrap ">
-                                    <a href="https://documenter.getpostman.com/view/29807114/2s9YXk52Ug" target="_blank"><button>
-                                        <Image
-                                            src="/images/browser-icon.png"
-                                            alt=""
-                                            width={20}
-                                            height={20}
-                                            className=""
-                                        />
-                                    </button>
-                                    </a>
-                                    <a href="https://github.com/najwatahir/sumeru-akademiya-api" target="_blank"><button>
-                                        <Image
-                                            src="/images/github-icon.png"
-                                            alt=""
-                                            width={20}
-                                            height={20}
-                                            className="ml-2"
-                                        />
-                                    </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                <div className="flex flex-wrap flex-row z-10  items-center justify-center">
+                    <div className="skill-box">
+                        <p>HTML</p>
+                        <Image
+                            src="/images/html.png"
+                            alt="HTML"
+                            width={100}
+                            height={100}
+                            className=""
+                        />
                     </div>
-                    <div className="project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4">
-                        <div className="h-fit rounded-lg overflow-hidden cursor-default">
-                            <Image
-                                src="/images/card-web.jpeg"
-                                alt="Personal Card Website"
-                                width={325}
-                                height={325}
-                                className="lg:h-40 w-screen object-cover object-center"
-                            />
-                            <div className="p-4">
-                                <h1 className="text-2xl font-semibold mb-3">Personal Card Website</h1>
-                                <p className="leading-relaxed mb-3">A website that contains some of my personal information. Made with NextJS & Tailwind</p>
-                                <div className="flex items-center flex-wrap ">
-                                    <a href="https://annetarc.vercel.app/" target="_blank"><button>
-                                        <Image
-                                            src="/images/browser-icon.png"
-                                            alt=""
-                                            width={20}
-                                            height={20}
-                                            className=""
-                                        />
-                                    </button>
-                                    </a>
-                                    <a href="https://github.com/najwatahir/annetarc-card" target="_blank"><button>
-                                        <Image
-                                            src="/images/github-icon.png"
-                                            alt=""
-                                            width={20}
-                                            height={20}
-                                            className="ml-2"
-                                        />
-                                    </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="skill-box">
+                        <p>CSS</p>
+                        <Image
+                            src="/images/css.png"
+                            alt="CSS"
+                            width={100}
+                            height={100}
+                            className=""
+                        />
                     </div>
-                    <div className="project-box sm:w-1/2 lg:w-1/4 rounded-lg h-1/4">
-                        <div className="h-fit rounded-lg overflow-hidden cursor-default">
-                            <Image
-                                src="/images/literalfabet.jpeg"
-                                alt="Literalfabet"
-                                width={325}
-                                height={325}
-                                className="lg:h-40 w-screen object-cover object-center"
-                            />
-                            <div className="p-4">
-                                <h1 className="text-2xl font-semibold mb-3">Literalfabet</h1>
-                                <p className="leading-relaxed mb-3">A bookstore website made with PHP. This website is currently still under development.</p>
-                            </div>
-                        </div>
+                    <div className="skill-box">
+                        <p>Tailwind CSS</p>
+                        <Image
+                            src="/images/tailwind-css.png"
+                            alt="Tailwind CSS"
+                            width={100}
+                            height={100}
+                            className=""
+                        />
+                    </div>
+                    <div className="skill-box">
+                        <p>NextJS</p>
+                        <Image
+                            src="/images/nextjs.png"
+                            alt="NextJS"
+                            width={100}
+                            height={100}
+                            className="mt-4"
+                        />
+                    </div>
+                    <div className="skill-box">
+                        <p>JavaScript</p>
+                        <Image
+                            src="/images/js.png"
+                            alt="JavaScript"
+                            width={100}
+                            height={100}
+                            className=""
+                        />
+                    </div>
+                    <div className="skill-box">
+                        <p>PHP</p>
+                        <Image
+                            src="/images/php.png"
+                            alt="PHP"
+                            width={100}
+                            height={100}
+                            className="mt-4"
+                        />
+                    </div>
+                    <div className="skill-box">
+                        <p>MySQL</p>
+                        <Image
+                            src="/images/mysql.png"
+                            alt="MySQL"
+                            width={100}
+                            height={100}
+                            className=""
+                        />
                     </div>
                 </div>
+                <div className="flex flex-wrap flex-row z-10 justify-center">
+                    <div className="ability-box">
+                        <p>Problem Solving</p>
+                    </div>
+                    <div className="ability-box">
+                        <p>Creative Thinking</p>
+                    </div>
+                    <div className="ability-box">
+                        <p>Team Working</p>
+                    </div>
+                </div>
+
             </div>
-        </section >
+        </div>
     )
 }
-
-export default Project
